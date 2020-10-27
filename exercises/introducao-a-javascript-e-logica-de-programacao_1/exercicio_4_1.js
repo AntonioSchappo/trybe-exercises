@@ -23,4 +23,19 @@ if(num1>num2){
 };
 
 /* Exercício 3 */
+let nb1 = 9;
+let nb2 = 10;
+let nb3 = 42;
+function bigger(number1, number2, number3) {
+    let numbers = [];
+    numbers[0]=number1;
+    numbers[1]=number2;
+    numbers[2]=number3;
+    let sortedNumbers = numbers.sort(function(a, b){return a-b});
+    return console.log(`And the bigger number is: ${sortedNumbers[2]}!`)
+}
+bigger(nb1,nb2,nb3);
+
+/*Exercício 4*/
+
 
