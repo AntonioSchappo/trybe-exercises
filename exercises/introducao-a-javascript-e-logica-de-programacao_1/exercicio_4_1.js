@@ -48,4 +48,15 @@ if(var1 > 0){
 };
 
 /*Exercício 5 Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário. */
+/*Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.*/
 
+let angle1 = 50;
+let angle2 = 70;
+let angle3 = 40;
+let isTriangle = false;
+if(angle1+angle2+angle3 == 180){
+isTriangle = true;
+}else{
+    isTriangle = false;
+}
+console.log(isTriangle);
