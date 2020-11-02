@@ -5,4 +5,4 @@ let num = [0,5,8,3,2,1];
 num.sort();
 for(let pos in num){
     console.log(`A posição ${pos} tem o valor ${num[pos]}.`)
-}   
+}
