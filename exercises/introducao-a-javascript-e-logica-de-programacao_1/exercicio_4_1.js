@@ -103,5 +103,27 @@ Porcentagem >= 50 -> E
 Porcentagem < 50 -> F
 O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100. */
 
+let nota = 100
+
+if(nota <= 100 && nota >= 90){
+    nota = "A";
+}else if(nota <= 89 && nota >= 80){
+    nota = "B";
+}else if(nota <= 79 && nota >= 70){
+    nota = "C";
+}else if(nota <= 69 && nota >= 60){
+    nota = "D";
+}else if(nota <= 59 && nota >= 50){
+    nota = "E"
+}else if(nota <= 49 && nota >= 0){
+    nota ="F";
+}else{
+    nota = "Erro! Nota fora do padrão numérico aceito!"
+};
+console.log(nota);
+
+/*Exercício 8 - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+Bonus: use somente um if.*/
+
 
 
