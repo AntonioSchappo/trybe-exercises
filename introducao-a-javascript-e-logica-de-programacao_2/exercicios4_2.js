@@ -19,5 +19,21 @@ A média aritmética é o resultado da soma de todos os elementos divido pelo n�
 let mediaAritmetica = sum/numbers.length
 console.log(mediaAritmetica);
 
-/* 4. Com o mesmo código do exercício anterior, caso valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
+// 4. Com o mesmo código do exercício anterior, caso valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
 
+if(mediaAritmetica > 20){
+    console.log('Valor maior que 20')
+}else{
+    console.log("valor menor ou igual a 20")
+};
+
+//5. Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+let largest = 0;
+for (const i in numbers) {
+    if(numbers[i]> largest){
+        largest = numbers[i];
+    }
+}
+console.log(largest);
+
+//6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
