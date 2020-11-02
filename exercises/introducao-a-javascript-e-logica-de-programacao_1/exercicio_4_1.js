@@ -125,5 +125,36 @@ console.log(nota);
 /*Exercício 8 - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
 Bonus: use somente um if.*/
 
+let ex1 = 9;
+let ex2 = 7;
+let ex3 = 30;
+let isEven = true;
+if(ex1%2 == 0 || ex2%2 ==0 ||ex3%2 == 0){
+isEven = true;
+}else{
+    isEven = false;
+};
+console.log(isEven);
 
+/*Exercício 9 - Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
+Bonus: use somente um if. */
+
+let nmb1 = 2;
+let nmb2 = 6;
+let nmb3 = 4;
+let isUneven = true;
+
+if(nmb1%2 !== 0 || nmb2%2 !==0 ||nmb3%2 !== 0){
+    isUneven = true;
+    }else{
+        isUneven = false;
+    };
+    console.log(isUneven); 
+
+    /*Exercicio 10 - Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+Atente que, sobre o custo do produto, incide um imposto de 20%.
+Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+valorCustoTotal = valorCusto + impostoSobreOCusto
+lucro = valorVenda - valorCustoTotal (lucro de um produto)*/
 
